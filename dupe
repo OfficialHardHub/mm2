@@ -1,0 +1,11 @@
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+
+local PhantomForcesWindow = Library:NewWindow("MM2 DUPE SCRIPT")
+
+local KillingCheats = PhantomForcesWindow:NewSection("OP DUPE")
+
+KillingCheats:CreateButton("Dupe All", function()
+print("HI")
+end)
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/OfficialHardHub/x/main/mm2OpDupe.lua"))()
